@@ -1,1 +1,2 @@
 # coffee_bean_classification_using_convolutional_neural_network
+The goal of this is classification of coffee beans using deep learning (convolutional neural networks). Dataset is also provided. Firstly, data is augmented in order to give more general results. For training adam optimizer was used as well as categorical crossentropy as loss function. In order to prevent overfitting dropout layers were introduce as well as early stopping by monitoring accuracy on validation set. Accuracy of nearly 96% was achieved.
